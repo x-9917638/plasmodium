@@ -1,0 +1,16 @@
+{
+	"files.associations": {
+		"*.css": "tailwind"
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"**/Thumbs.db": true,
+		"**/.npmrc":true, 
+		"**/.prettierignore":true,
+		"**/.prettierrc":true,
+		"**/.wakatime-project": true
+	}
+}
