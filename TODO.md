@@ -1,0 +1,9 @@
+- [ ] Facts
+    - [ ] \$state - [ref](https://svelte.dev/docs/svelte/$state)
+    - [ ] \$derived - [ref](https://svelte.dev/docs/svelte/$derived)
+- [ ] Interactive
+- [ ] Error
+- [ ] Including \$effect runes on both your main and interactive page - [ref](https://svelte.dev/docs/svelte/$effect)
+- [ ] Including if and each blocks in your site
+- [ ] Making your project responsive (mobile support)
+- [ ] Making the facts panel a component and using \$props to transfer information - [ref](https://svelte.dev/docs/svelte/$props)

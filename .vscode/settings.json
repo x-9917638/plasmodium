@@ -8,9 +8,9 @@
 		"**/.hg": true,
 		"**/.DS_Store": true,
 		"**/Thumbs.db": true,
-		"**/.npmrc":true, 
-		"**/.prettierignore":true,
-		"**/.prettierrc":true,
+		"**/.npmrc": true,
+		"**/.prettierignore": true,
+		"**/.prettierrc": true,
 		"**/.wakatime-project": true
 	}
 }
