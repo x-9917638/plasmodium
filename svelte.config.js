@@ -14,7 +14,9 @@ const config = {
 		prerender: {
 			handleHttpError: 'ignore'
 		},
-		base: '/plasmodium'
+		paths: {
+			base: 'plasmodium'
+		}
 	},
 	extensions: ['.svelte', '.svx']
 };
