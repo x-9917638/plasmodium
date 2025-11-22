@@ -15,7 +15,7 @@ const config = {
 			handleHttpError: 'ignore'
 		},
 		paths: {
-			base: 'plasmodium'
+			base: '/plasmodium'
 		}
 	},
 	extensions: ['.svelte', '.svx']
