@@ -8,10 +8,13 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [vitePreprocess(), mdsvex()],
 	kit: { 
-		adapter: adapter(), 
+		adapter: adapter({
+			fallback: '404.html'
+		}),	
 		prerender: {
 			handleHttpError: 'ignore'
 		},
+		base: '/plasmodium'
 	},
 	extensions: ['.svelte', '.svx']
 };
