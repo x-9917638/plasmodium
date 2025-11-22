@@ -2,8 +2,6 @@
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
 	import ZooBanner from '$lib/zoo.svelte';
-	import FactPanel from '$lib/facts.svelte';
-
 	let { children } = $props();
 </script>
 
@@ -16,5 +14,4 @@
 </svelte:head>
 
 <ZooBanner />
-<FactPanel />
 {@render children()}

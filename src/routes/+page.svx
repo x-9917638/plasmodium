@@ -1,0 +1,38 @@
+<script lang="ts">
+    import FactPanel from '$lib/facts.svelte';
+</script>
+
+# Plasmodium
+
+## What is plasmodium?
+    
+Plasmodium is a genus of species.     
+
+Some of these species cause malaria in humans and other animals. 
+    
+These parasites are usually spread by mosquitoes.
+
+
+## Facts
+
+<FactPanel 
+    align="right"
+    fact={{
+            title: 'Meow',
+            body: 'Moew mrrp :3',
+        }}
+/>
+<FactPanel 
+    align="left"
+    fact={{
+            title: 'Woof',
+            body: 'Ouppy cute :D',
+        }}
+/>
+<FactPanel
+    align="right"
+    fact={{
+            title: 'Bleh',
+            body: 'Nya~',
+        }}
+/>

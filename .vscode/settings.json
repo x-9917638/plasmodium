@@ -1,6 +1,6 @@
 {
 	"files.associations": {
-		"*.css": "tailwind"
+		"*.svx": "svelte"
 	},
 	"files.exclude": {
 		"**/.git": true,
